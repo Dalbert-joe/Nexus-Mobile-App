@@ -1,0 +1,31 @@
+export const COLORS = {
+  background:   '#0A0A1A',
+  card:         '#12122A',
+  cardBorder:   '#1E1E3A',
+  green:        '#00C896',
+  greenDark:    '#00A07A',
+  greenBg:      '#001A12',
+  orange:       '#FF8C00',
+  orangeDark:   '#CC7000',
+  orangeBg:     '#1A0D00',
+  red:          '#FF3B3B',
+  redDark:      '#CC2020',
+  redBg:        '#1A0000',
+  gray:         '#6B7280',
+  grayBg:       '#1A1A2A',
+  white:        '#FFFFFF',
+  textPrimary:  '#FFFFFF',
+  textSecondary:'#9CA3AF',
+  inputBg:      '#1A1A2E',
+  inputBorder:  '#2D2D4E',
+  accent:       '#6C63FF',
+  accentDark:   '#5A52CC',
+};
+
+export const DEMO_UPIS = [
+  { upi: 'arjun.nair@oksbi',    label: 'arjun.nair@oksbi',    risk: 'SAFE'     },
+  { upi: 'vikram.s1@ybl',       label: 'vikram.s1@ybl',       risk: 'CRITICAL' },
+  { upi: 'anjali.d@okaxis',     label: 'anjali.d@okaxis',     risk: 'MEDIUM'   },
+  { upi: 'anil.s@okaxis',       label: 'anil.s@okaxis',       risk: 'HIGH'     },
+  { upi: 'deepak.c99@paytm',    label: 'deepak.c99@paytm',    risk: 'HIGH'     },
+];
