@@ -1,0 +1,1 @@
+run = "node index.js & cd mobile && npm install && npx expo start --tunnel"
